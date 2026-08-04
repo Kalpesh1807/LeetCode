@@ -10,6 +10,7 @@ class Solution(object):
             i = i//10
         if  (x == s):
             return True
+        return False
     
 print(Solution().isPalindrome(121));
 print(Solution().isPalindrome(-101)); 

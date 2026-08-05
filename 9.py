@@ -15,5 +15,5 @@ class Solution(object):
         return False
     
 print(Solution().isPalindrome(121));
-print(Solution().isPalindrome(-101)); 
+print(Solution().isPalindrome(-101));
 print(Solution().isPalindrome(123));

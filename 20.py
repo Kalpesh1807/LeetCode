@@ -14,21 +14,21 @@ class Solution(object):
         """
         stack = []
         for breacket in s:
-            if breacket == "(" or breacket == "{" or breacket =="[" :
-                stack.append
+            if breacket == "(" or breacket == "{" or breacket == "[" :
+                stack.append(breacket)
             else:
                 if len(stack) == 0:
                     return False
                 ch = stack.pop()
-                if( 
-                    (breacket ==")" and ch =="(" )
+                if ( 
+                    (breacket == ")" and ch =="(" )
                     or (breacket == "]" and ch == "[")
                     or (breacket == "}" and ch == "{")
                 ):
                     continue
                 else:
                     return False
-        return len(stack == 0)
+        return len(stack) == 0
 
 
     

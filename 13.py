@@ -36,4 +36,4 @@ class Solution(object):
                 total += roman_dict[s[i]]
         return total
 
-print(Solution().romanToInt("MCMXCIV"))
+print(Solution().romanToInt("V"))

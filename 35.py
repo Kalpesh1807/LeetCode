@@ -25,3 +25,5 @@ class Solution(object):
                 j = mid - 1
 
         return i
+    
+print(Solution().searchInsert([1,3,5,6], 5)) # Output: 2
